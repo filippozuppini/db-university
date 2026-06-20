@@ -42,13 +42,14 @@ per ogni appello d'Esame a cui lo Studente ha partecipato, è necessario memoriz
 - data-iscrizione
 - email
 - n_telefono
+- id_dipartimento
 - id_corso
 
 # Esami
 - id
 - nome
 - cfu
-- n_appello
+- n_appelli
 
 # Sessioni_esami
 - id
