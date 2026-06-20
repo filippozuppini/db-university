@@ -8,3 +8,61 @@ ogni Studente può iscriversi a più appelli di Esame;
 per ogni appello d'Esame a cui lo Studente ha partecipato, è necessario memorizzare il voto ottenuto, anche se non sufficiente. -->
 
 
+
+
+# Dipartimenti:
+- id
+- nome
+- settore
+- direttore
+- email
+
+# Corsi_laurea:
+- id
+- id_corso
+- nome
+- semestre
+- durata_anni
+- crediti
+- descrizione
+
+# Insegnanti
+- id
+- nome
+- cognome
+- email
+- n_telefono
+- id_dipartimento
+
+# Studenti
+- id
+- nome
+- cognome
+- data-nascita
+- data-iscrizione
+- email
+- n_telefono
+- id_corso
+
+# Esami
+- id
+- nome
+- cfu
+- n_appello
+
+# Sessioni_esami
+- id
+- id_esame
+- orario
+- n_appello
+- indirizzo
+
+# voti_esami
+- id_esame
+- id_studente
+- voto
+
+
+
+
+
